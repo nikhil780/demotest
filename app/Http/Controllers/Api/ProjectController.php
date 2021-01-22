@@ -294,8 +294,16 @@ class ProjectController extends Controller
             $success      = 1;
             $error        = 0;
             
-            $final_arr_projects[] = 'PR - '.$arr_projects->pr_location;
-            $final_arr_projects[] = 'DR - '.$arr_projects->dr_location;
+            $final_arr_projects[] = $arr_projects->pr_location;
+            $final_arr_projects[] = $arr_projects->dr_location;
+
+            
+            //$final_arr_projects['PR'] = $arr_projects->pr_location;
+            //$final_arr_projects['DR'] = $arr_projects->dr_location;
+
+            // $final_arr_projects['val'] = $arr_projects->pr_location;
+            // $final_arr_projects['val'] = $arr_projects->pr_location;
+
         }
         else
         {
