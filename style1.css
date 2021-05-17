@@ -1,0 +1,27 @@
+label,
+  input,
+  button,
+  text 
+  {
+    border: 0;
+    margin-bottom: 3px;
+    display: grid;
+    width:100%;
+  }
+  h1
+  {
+    color: navy;
+  }
+ .form1 
+ {
+    padding: 15px;
+    border: 1px solid skyblue;
+    border-color: #28BAA2;
+    border-radius: 15px;
+    margin-top: 5px;
+    background: #d4edda;
+ }
+ body
+ {
+  
+ }
